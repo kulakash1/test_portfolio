@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.about-me-section {
+    background-color: #643EEA;
+}
+
+ .nav-Bg {
+    background-color: #0C0000;
+}
+
+.navBtn {
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 2px;
+    font-size: 24px;
+    color: white;
+    border-color: #643EEA;
+    width: 45px;
+    height: 45px;
+}
+
+.navbar-image {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+
+.main-point {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.about-me-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-me-section-image {
+    width: 100%;
+}
+
+.portfolio-section-footer {
+    background-color: #1F0C61;
+}
+
+.card-bg {
+    background-color: #643EEA;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.card-img {
+    width: 64px;
+    height: 64px;
+}
+
+.card-Title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.about-me-section {
+    /* background-color: #643EEA; */
+    background-image: linear-gradient(to right, #643EEA, #1F0C61);
+  
+}
+
+.nav-Bg {
+    background-color: #0C0000;
+}
+
+.navBtn {
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 2px;
+    font-size: 24px;
+    color: white;
+    border-color: #643EEA;
+    width: 45px;
+    height: 45px;
+}
+
+.navbar-image {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+
+.main-point {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.about-me-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-me-section-image {
+    width: 100%;
+}
+
+.portfolio-section-footer {
+    background-color: #1F0C61;
+}
+
+.card-bg {
+    background-color: #643EEA;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.card-img {
+    width: 64px;
+    height: 64px;
+}
+
+.card-Title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+/* Footer CSS  Starts*/
+/* .footer-section {
+    background-image: linear-gradient(to bottom, #1F0C61, #643EEA);
+    /* background-color: #1F0C61;
+  }
+  .footer-section-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+  } */
+
+  .footer-section-copyright-container {
+    text-align: center;
+    color: #ffffff;
+    background-color: #001c32;
+    padding: 10px;
+  }
+  .footer-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .footer-section-text {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 14px;
+  }
+  .icon {
+    color: #5a7184;
+    font-size: 18px;
+  }
+  
+.footer-heart {
+    color: red;
+}
+
+
+
+
+/* Latest Footer CSS */
+
+.footer-section {
+    background-image: linear-gradient(to bottom, #1F0C61, #643EEA);
+    /* background-color: #1F0C61; */
+  }
+
+.footer-section-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+  }
+
+.ecommerce-footer-section-icon-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 15px;
+    background-color: #152c3e;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+.ecommerce-footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ecommerce-footer-section-heading {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ecommerce-footer-section-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ecommerce-footer-section-list-item {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.hr-line {
+    background-color: #5a7184;
+}
+
+.ecommerce-footer-section-copyright {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.about-me-section {
+    background-color: #643EEA;
+}
+
+ .nav-Bg {
+    background-color: #0C0000;
+}
+
+.navBtn {
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 2px;
+    font-size: 24px;
+    color: white;
+    border-color: #643EEA;
+    width: 45px;
+    height: 45px;
+}
+
+.navbar-image {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+
+.main-point {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.about-me-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-me-section-image {
+    width: 100%;
+}
+
+.portfolio-section-footer {
+    background-color: #1F0C61;
+}
+
+.card-bg {
+    background-color: #643EEA;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.card-img {
+    width: 64px;
+    height: 64px;
+}
+
+.card-Title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
