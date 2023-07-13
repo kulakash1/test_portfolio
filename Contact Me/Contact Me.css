@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
-.about-me-section {
+/* .about-me-section {
     background-color: #643EEA;
-}
+} */
 
  .nav-Bg {
     background-color: #0C0000;
@@ -73,3 +73,156 @@
     font-weight: bold;
     margin-top: 10px;
 }
+
+
+
+
+
+/* Contact ME Started Here */
+.contact-me-section {
+    background-image: linear-gradient(to right, #643EEA, #1F0C61);
+    color: #ffffff;
+}
+
+.contact-me-section-contact-card {
+    background-color: #1F0C61;
+    height: 130px;
+    width: 260px;
+    border-radius: 25px;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.arrow-right-icon {
+    color: #18a73a;
+    font-size: 18px;
+  }
+
+
+
+
+  .form-heading {
+    font-family: "Roboto";
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.gender-field-heading {
+    color: #212529;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+/*=============== CONTACT ===============*/
+
+
+.contact__container{
+    row-gap: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .contact__title{
+    text-align: center;
+    font-size: var(--h3-font-size);
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact__info{
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .contact__card{
+    background-color: var(--container-color);
+    padding: 1rem;
+    border-radius: .75rem;
+    text-align: center;
+  }
+  
+  .contact__card-icon{
+    font-size: 2rem;
+    color: var(--title-color);
+    margin-bottom: .25rem;
+  }
+  
+  .contact__card-title,
+  .contact__card-data{
+    font-size: var(--small-font-size);
+  }
+  
+  .contact__card-title{
+    font-weight: var(--font-medium);
+  }
+  
+  .contact__card-data{
+    display: block;
+    margin-bottom: .75rem;
+  }
+  
+  .contact__button{
+    color: var(--first-color);
+    font-size: var(--small-font-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .25rem;
+  }
+  
+  .contact__button:hover .contact__button-icon{
+    transform: translateX(.25rem);
+  }
+  
+  .contact__button-icon{
+    font-size: 1rem;
+    transition: .4s;
+  }
+  
+  .contact__form-div{
+    position: relative;
+    margin-bottom: 2rem;
+    height: 4rem;
+  }
+  
+  .contact__form-input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--text-color-light);
+    background: none;
+    color: var(--text-color);
+    outline: none;
+    padding: 1.5rem;
+    border-radius: .75rem;
+    z-index: 1;
+  }
+  
+  .contact__form-tag{
+    position: absolute;
+    top: -.75rem;
+    left: 1.25rem;
+    font-size: var(--smaller-font-size);
+    padding: .25rem;
+    background-color: var(--body-color);
+    z-index: 10;
+  }
+  
+  .contact__form-area{
+    height: 11rem;
+  }
+  
+  .contact__form-area textarea{
+    resize: none;
+  }
