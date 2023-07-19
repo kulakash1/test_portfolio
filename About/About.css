@@ -268,3 +268,82 @@
     font-weight: 400;
     margin-bottom: 5px;
 }
+
+
+
+
+
+ /* About Page skills and Education Section */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.skills li {
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.skills li:hover {
+    background-color: #ddd;
+}
+
+/* Filter input styles */
+.skills-filter {
+    margin-bottom: 10px;
+}
+
+.skills-filter label {
+    margin-right: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+    .skills-list li {
+        margin: 5px;
+    }
+}
