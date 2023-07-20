@@ -3,6 +3,9 @@
 
 <head>
 	<link rel="stylesheet" href="Achievements.css" />
+    <script src="Achievements.js" defer></script>
+
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -56,8 +59,8 @@
     </nav>
 
 
-<!--=============== TRAVEL DIARY ===============-->
-    <div class="about-me-section pt-5 pb-5">
+<!--=============== ACHIEVEMENTS ===============-->
+    <!-- <div class="about-me-section pt-5 pb-5">
 
         <div class="container">
             <div class="row">
@@ -74,7 +77,41 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
+
+    <main>
+        <section class="achievement-section">
+          <h2>Earned Certificates</h2>
+          <div class="certificate-container">
+            <div class="certificate" onclick="showCertificateDetails('Certificate Title 1', 'January 15, 2023', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.')">
+              <img src="/Achievements/Certificates/Competitive Programming/C++ and Foundations of STL.jpg" alt="Certificate 1">
+              <h3>C++ and Foundations of STL</h3>
+              <p>Issue Date: October 9, 2022</p>
+              <p>Description: C++.</p>
+            </div>
+            <div class="certificate" onclick="showCertificateDetails('Certificate Title 2', 'February 28, 2023', 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')">
+              <img src="/Achievements/Certificates/Competitive Programming/Elementary Data Structures and Algorithms.jpg" alt="Certificate 2">
+              <h3>Elementary Data Structures and Algorithms</h3>
+              <p>Issue Date: February 13, 2022</p>
+              <p>Description: DSA Fundamentals.</p>
+            </div>
+            <!-- Add more certificates as needed -->
+          </div>
+        </section>
+      </main>
+    
+      <!-- NEED TO UPDATE !-->
+      <!-- 
+        <div class="modal" id="certificateModal">
+        <div class="modal-content">
+          <span class="close-button" onclick="closeModal()">&times;</span>
+          <div id="modalContent">
+            Certificate details will be dynamically added here
+          </div>
+        </div>
+      </div> 
+    -->
 
 
     

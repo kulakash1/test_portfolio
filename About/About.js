@@ -35,3 +35,59 @@ filterInput.addEventListener("input", function () {
 //       }
 //   });
 // });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ... Existing JavaScript code ...
+
+// Function to display the contact popup
+function openContactPopup() {
+  var popup = document.getElementById("contact-popup");
+  popup.style.display = "block";
+}
+
+// Function to close the contact popup
+function closeContactPopup() {
+  var popup = document.getElementById("contact-popup");
+  popup.style.display = "none";
+}
+
+// Function to toggle visibility of the education and skills sections
+function toggleSectionVisibility(sectionId) {
+  var section = document.getElementById(sectionId);
+  if (section.style.display === "none") {
+      section.style.display = "block";
+  } else {
+      section.style.display = "none";
+  }
+}
+
+// ... Remaining JavaScript code ...
