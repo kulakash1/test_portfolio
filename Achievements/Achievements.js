@@ -1,10 +1,12 @@
-// // Event listener for clicking outside the modal to close it
-// window.onclick = function (event) {
-//   const modal = document.getElementById("certificateModal");
-//   if (event.target === modal) {
-//     modal.style.display = "none";
-//   }
-// };
+// Event listener for clicking outside the modal to close it
+window.onclick = function (event) {
+  const modal = document.getElementById("certificateModal");
+  if (event.target === modal) {
+    modal.style.display = "none";
+    const modalContent = document.getElementById("modalContent");
+    modalContent.innerHTML = "";
+  }
+};
 
 
 
@@ -59,8 +61,10 @@ function closeModal() {
   // Clear the image source to reset the modal when closing
   // const fullImg = document.getElementById("fullCertificateImg");
   const modalContent = document.getElementById("modalContent");
-  // modal.removeChild(modalContent);
   modalContent.innerHTML = "";
+  
+  // modal.removeChild(modalContent);
+  
   // fullImg.src = "";
 }
 
