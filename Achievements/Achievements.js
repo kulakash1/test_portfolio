@@ -1,18 +1,70 @@
-// Function to display a modal with certificate details when clicked
-function showCertificateDetails(title, issueDate, description) {
-  const modalContent = document.getElementById('modalContent');
-  modalContent.innerHTML = `
-    <h2>${title}</h2>
-    <p><strong>Issue Date:</strong> ${issueDate}</p>
-    <p><strong>Description:</strong> ${description}</p>
-  `;
+// // Event listener for clicking outside the modal to close it
+// window.onclick = function (event) {
+//   const modal = document.getElementById("certificateModal");
+//   if (event.target === modal) {
+//     modal.style.display = "none";
+//   }
+// };
 
-  const modal = document.getElementById('certificateModal');
-  modal.style.display = 'block';
+
+
+
+
+function showCertificateDetails(title, issueDate, description, duration, imageUrl, verificationLink) {
+  const modal = document.getElementById("certificateModal");
+  const fullImg = document.getElementById("fullCertificateImg"); // Corrected variable name here
+  const modalContent = document.getElementById("modalContent");
+
+  // Set modal content with certificate details
+  // fullImg.src = imageUrl;
+
+  // Create elements to display certificate details
+  const titleElement = document.createElement("h2");
+  titleElement.textContent = title;
+
+  const imageContainer = document.createElement("div"); // Container for the image
+  const certificateImage = document.createElement("img");
+  certificateImage.src = imageUrl;
+  certificateImage.alt = title;
+  imageContainer.appendChild(certificateImage);
+
+  const issueDateElement = document.createElement("p");
+  issueDateElement.innerHTML = `<strong>Issue Date:</strong> ${issueDate}`;
+
+  const durationElement = document.createElement("p"); // Added duration element
+  durationElement.innerHTML = `<strong>Duration:</strong> ${duration}`;
+
+
+  const descriptionElement = document.createElement("p");
+  descriptionElement.innerHTML = `<strong>Description:</strong> ${description}`;
+
+  const verificationLinkElement = document.createElement("p");
+  verificationLinkElement.innerHTML = `<strong>Verification Link:</strong> <a href="${verificationLink}" target="_blank">${verificationLink}</a>`;
+
+  // Clear previous content and append new details
+  // modalContent.innerHTML = ""; // Clear previous content
+  modalContent.appendChild(imageContainer); // Append image container first
+  modalContent.appendChild(titleElement);
+  modalContent.appendChild(issueDateElement);
+  modalContent.appendChild(descriptionElement);
+  modalContent.appendChild(durationElement);
+  modalContent.appendChild(verificationLinkElement);
+
+  modal.style.display = "block";
 }
 
-// Function to close the modal when the close button is clicked
 function closeModal() {
-  const modal = document.getElementById('certificateModal');
-  modal.style.display = 'none';
+  const modal = document.getElementById("certificateModal");
+  modal.style.display = "none";
+  // Clear the image source to reset the modal when closing
+  // const fullImg = document.getElementById("fullCertificateImg");
+  const modalContent = document.getElementById("modalContent");
+  // modal.removeChild(modalContent);
+  modalContent.innerHTML = "";
+  // fullImg.src = "";
 }
+
+
+// DOMContentLoaded event listener is not required here
+
+// ... (Remaining JavaScript code remains the same) ...

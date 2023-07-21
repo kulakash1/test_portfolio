@@ -80,27 +80,80 @@
     </div> -->
 
 
-    <main>
-        <section class="achievement-section">
-          <h2>Earned Certificates</h2>
-          <div class="certificate-container">
-            <div class="certificate" onclick="showCertificateDetails('Certificate Title 1', 'January 15, 2023', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.')">
-              <img src="/Achievements/Certificates/Competitive Programming/C++ and Foundations of STL.jpg" alt="Certificate 1">
-              <h3>C++ and Foundations of STL</h3>
-              <p>Issue Date: October 9, 2022</p>
-              <p>Description: C++.</p>
+    <!-- ... (Previous HTML code remains the same) ... -->
+
+<main>
+    <section class="achievement-section">
+        <h2>Earned Certificates</h2>
+        <h3>Full Stack Web Development</h3>
+        <div class="certificate-container">
+            <div class="certificate" onclick="showCertificateDetails('Build Your Own Static Website', 'February 8, 2022', 'HTML.', '55+ Hrs', '/Achievements/Certificates/Full Stack Web Development/Build Your Own Static Website.jpg', 'https://10xiitian.ccbp.in/certificate/ZSKZRZNPMD')">
+                <img src="/Achievements/Certificates/Full Stack Web Development/Build Your Own Static Website.jpg" alt="Certificate 1">
+                <h3>Build Your Own Static Website</h3>
+                <p>Issue Date: February 8, 2022</p>
+                <p>Description: HTML.</p>
+                <p>Duration: 55+ Hrs</p>
             </div>
-            <div class="certificate" onclick="showCertificateDetails('Certificate Title 2', 'February 28, 2023', 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')">
-              <img src="/Achievements/Certificates/Competitive Programming/Elementary Data Structures and Algorithms.jpg" alt="Certificate 2">
-              <h3>Elementary Data Structures and Algorithms</h3>
-              <p>Issue Date: February 13, 2022</p>
-              <p>Description: DSA Fundamentals.</p>
+            <!-- Add more Web Dev certificates as needed -->
+        </div>
+
+        <h3>Competitive Programming</h3>
+        <div class="certificate-container">
+            <div class="certificate-container">
+                <div class="certificate" onclick="showCertificateDetails('Elementary Data Structures and Algorithms', 'February 13, 2022', 'DSA Fundamentals.', '29+ Hrs', '/Achievements/Certificates/Competitive Programming/Elementary Data Structures and Algorithms.jpg', 'https://10xiitian.ccbp.in/certificate/ZHXOQGMJWU')">
+                    <img src="/Achievements/Certificates/Competitive Programming/Elementary Data Structures and Algorithms.jpg" alt="Certificate 2">
+                    <h3>Elementary Data Structures and Algorithms</h3>
+                    <p>Issue Date: February 13, 2022</p>
+                    <p>Description: DSA Fundamentals.</p>
+                    <p>Duration: 29+ Hrs</p>
+                </div>
+                <!-- Add more Competi certificates as needed -->
+                <div class="certificate" onclick="showCertificateDetails('C++ and Foundations of STL', 'October 9, 2022', 'C++.', '15+ Hrs', '/Achievements/Certificates/Competitive Programming/C++ and Foundations of STL.jpg', 'https://10xiitian.ccbp.in/certificate/VWQJVAFLJA')">
+                    <img src="/Achievements/Certificates/Competitive Programming/C++ and Foundations of STL.jpg" alt="Certificate 3"> <!-- Changed alt attribute to "Certificate 3" -->
+                    <h3>C++ and Foundations of STL</h3>
+                    <p>Issue Date: October 9, 2022</p>
+                    <p>Description: C++.</p>
+                    <p>Duration: 15+ Hrs</p>
+                </div>
             </div>
-            <!-- Add more certificates as needed -->
-          </div>
-        </section>
-      </main>
+        </div>
+
+
+        
+    </section>
+</main>
+
+<!-- ... (Remaining HTML code remains the same) ... -->
+<div class="modal" id="certificateModal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal()">&times;</span>
+        <div id="modalContent">
+            <!-- Certificate details will be dynamically added here -->
+            <!-- <img id="fullCertificateImg" src="" alt="Full Certificate Image"> -->
+        </div>
+    </div>
+</div>
     
+
+
+
+
+
+    <!-- ... (Previous HTML code remains the same) ... -->
+
+    <!-- <div class="modal" id="certificateModal">
+        <div class="modal-content">
+          <span class="close-button" onclick="closeModal()">&times;</span>
+          <div id="modalContent">
+            <img id="fullCertificateImage" src="" alt="Full Certificate Image">
+          </div>
+        </div>
+      </div> -->
+      
+    
+
+<!-- ... (Remaining HTML code remains the same) ... -->
+
       <!-- NEED TO UPDATE !-->
       <!-- 
         <div class="modal" id="certificateModal">
