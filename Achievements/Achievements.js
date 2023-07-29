@@ -55,6 +55,50 @@ function showCertificateDetails(title, issueDate, description, duration, imageUr
   modal.style.display = "block";
 }
 
+
+function showCertificateDetailsType2(title, issueDate, description, certificationNo, imageUrl, issuedBy) {
+  const modal = document.getElementById("certificateModal");
+  const fullImg = document.getElementById("fullCertificateImg"); // Corrected variable name here
+  const modalContent = document.getElementById("modalContent");
+
+  // Set modal content with certificate details
+  // fullImg.src = imageUrl;
+
+  // Create elements to display certificate details
+  const titleElement = document.createElement("h2");
+  titleElement.textContent = title;
+
+  const imageContainer = document.createElement("div"); // Container for the image
+  const certificateImage = document.createElement("img");
+  certificateImage.src = imageUrl;
+  certificateImage.alt = title;
+  imageContainer.appendChild(certificateImage);
+
+  const issueDateElement = document.createElement("p");
+  issueDateElement.innerHTML = `<strong>Issue Date:</strong> ${issueDate}`;
+
+  const certificationNoElement = document.createElement("p"); // Added certificationNo element
+  certificationNoElement.innerHTML = `<strong>Certification No.:</strong> ${certificationNo}`;
+
+
+  const descriptionElement = document.createElement("p");
+  descriptionElement.innerHTML = `<strong>Description:</strong> ${description}`;
+
+  const issuedByElement = document.createElement("p");
+  issuedByElement.innerHTML = `<strong>Issued By:</strong> ${issuedBy}`;
+
+  // Clear previous content and append new details
+  // modalContent.innerHTML = ""; // Clear previous content
+  modalContent.appendChild(imageContainer); // Append image container first
+  modalContent.appendChild(titleElement);
+  modalContent.appendChild(issueDateElement);
+  modalContent.appendChild(descriptionElement);
+  modalContent.appendChild(certificationNoElement);
+  modalContent.appendChild(issuedByElement);
+
+  modal.style.display = "block";
+}
+
 function closeModal() {
   const modal = document.getElementById("certificateModal");
   modal.style.display = "none";
